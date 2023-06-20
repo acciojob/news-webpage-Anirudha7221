@@ -4,12 +4,12 @@ body{
 }
 header{
 	background-color:#011e29;
+	text-align:center;
 }
 h1{
 	color:white;
-	text-align:center;
 }
-.holder{
+.latest-news-section{
 	display:flex;
 	flex-wrap:nowrap;
 	justify-content:space-between;
@@ -24,4 +24,10 @@ h1{
 	display:flex;
 	flex-direction:column;
 	justify-content:space-around;
+}
+.pictorial-news-section{
+	background-color:white;
+	text-align:center;
+	padding:5px;
+	border-radius:20px;
 }
